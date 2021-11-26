@@ -14,12 +14,12 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    background: hsl(20, 3%, 23%);
-    width: 100%;
-    height: 48px;
-    margin: auto;   
+  display: flex;
+  justify-content: space-between;
+  background: hsl(20, 3%, 23%);
+  width: 100%;
+  height: 48px;
+  margin: auto;
 }
 
 .hambuger {
@@ -43,11 +43,9 @@ header {
   text-decoration: none;
 }
 
-.hambuger .logo { 
+.hambuger .logo {
   flex: 1;
 }
-
-/* section 2 */
 
 .primary-text {
   margin-bottom: 12px;
