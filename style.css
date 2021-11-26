@@ -83,7 +83,6 @@ h1 {
 
 .headline {
   display: flex;
-  flex-direction: column;
   background: hsl(20, 6%, 10%) url(images/bgvector.svg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -99,17 +98,10 @@ h1 {
 
 .social-icons {
   display: flex;
+  flex-wrap: wrap;
+  align-content: center;
   justify-content: space-evenly;
   list-style: none;
   margin-top: 20px;
   margin-right: 200px;
-}
-
-li {
-  text-align: justify;
-}
-
-.social {
-  margin-left: 0;
-  width: 100%;
 }
