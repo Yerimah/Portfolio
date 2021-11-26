@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap'); */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 480px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: hsl(20, 3%, 23%);
+  width: 375px;
+  height: 48px;
+  margin: auto;
+}
+
+.hambuger {
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  margin-right: 20px;
+}
+
+.logo {
+  width: 77px;
+  height: 24px;
+  left: 12px;
+  top: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 10px 12px;
+  margin-left: 20px;
+}
+
+.navbar .hambuger .logo {
+  flex: 1;
+}
+
+/* section 2 */
+
+.primary-text {
+  margin-bottom: 12px;
+}
+
+h1 {
+  color: hsl(25, 100%, 50%);
+  font-family: Round;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.supporting-text h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: hsl(40, 100%, 94%);
+  margin-bottom: 12px;
+}
+
+.description {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  background: hsl(20, 6%, 10%) url(images/bgvector.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 956px;
+  padding: 0;
+  width: 375px;
+  margin: auto;
+}
+
+.hero {
+  padding: 120px 24px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 12px;
+  margin-right: 151px;
+}
