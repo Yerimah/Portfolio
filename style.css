@@ -123,7 +123,7 @@ h1 {
   cursor: pointer;
   display: inline-block;
   border: 1px solid;
-  padding: 10px 10px;
+  padding: 6px 12px;
   background: white;
   color: black;
   font-size: 15px;
@@ -166,18 +166,19 @@ h1 {
 h2 {
   font-size: 32px;
   font-family: 'Crete Round', serif;
+  margin: 24px 0 12px 0;
 }
 
 .p-description {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  line-height: 24px;
 }
 
 .languages {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin-bottom: 10px;
   width: 236px;
   background: white;
   align-items: center;
