@@ -112,6 +112,13 @@ h1 {
   padding: 120px 24px;
 }
 
+.work-header {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 400px;
+  padding: 20px 0;
+}
+
 .btn-card {
   cursor: pointer;
   display: inline-block;
@@ -329,9 +336,12 @@ span {
 }
 
 .spaced {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
   font-size: 72px;
+  line-height: 88px;
   width: 327px;
-  height: 79px;
+  color: hsl(25, 100%, 50%);
 }
 
 .about-2 {
