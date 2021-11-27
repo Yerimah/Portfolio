@@ -121,17 +121,13 @@ h1 {
   display: grid;
   margin: 0 auto;
   border: 1px solid blue;
-  gap: 50px 0px;
+  gap: 50px 0;
   width: 317px;
 }
 
 .project-1 {
-  width: 317px;
+  width: 318px;
   border: 2px solid red;
-}
-
-img {
-  
 }
 
 h2 {
@@ -150,10 +146,8 @@ h2 {
   list-style: none;
   margin-bottom: 10px;
   width: 236px;
-  list-style: none;
   background: white;
   align-items: center;
-  justify-content: center;
 }
 
 .languages li {
@@ -161,7 +155,7 @@ h2 {
   border: 2px solid red;
   text-align: center;
   height: 40px;
-  padding: 1;
+  padding: 1px;
 }
 
 .p-btn {
@@ -251,7 +245,6 @@ h3 {
 .lang {
   display: flex;
   flex-direction: row;
-  /* align-items: flex-start; */
   margin-right: 10px;
   width: 236px;
   list-style: none;
@@ -267,7 +260,7 @@ h3 {
   border: 2px solid red;
   text-align: center;
   height: 40px;
-  padding: 1;
+  padding: 1px;
 }
 
 .title {
@@ -319,7 +312,6 @@ span {
 }
 
 .spaced {
-  letter-spacing: 0.37px;
   font-size: 72px;
   width: 327px;
   height: 79px;
@@ -330,10 +322,14 @@ span {
   flex-direction: column;
   align-items: center;
   padding: 120px 24px;
-  width: 329px;
-  color: white;}
+  width: 317px;
+  color: white;
+  border: 1px solid red;
+  margin: 0 auto;
+}
 
-.stacks span, img {
+.stacks span, 
+img {
   color: white;
   margin-right: 10px;
   font-size: 32px;
