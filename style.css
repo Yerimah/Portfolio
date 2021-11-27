@@ -388,8 +388,14 @@ li {
   margin-bottom: 20px;
 }
 
-.skills span,
-img {
+.skills span {
+  color: white;
+  margin-left: 20px;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+}
+
+.skills img {
   color: white;
   margin-left: 20px;
   font-size: 32px;
