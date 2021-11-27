@@ -105,3 +105,50 @@ h1 {
   margin-top: 20px;
   margin-right: 200px;
 }
+
+.work-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+}
+
+.container {
+  display: grid;
+  margin: 50px auto;
+  /* grid-template-columns: 1fr; */
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  justify-items: center;
+  gap: 100px 0px;
+
+}
+
+.card-bg {
+  background: url(images/portfolio.png) no-repeat;
+}
+
+.card-btn {
+  width: 375px;
+  background: rgba(255, 107, 0, 1);
+}
+
+.title {
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  align-items: center;
+}
+
+span {
+  font-size: 40px;
+  color: rgba(28, 26, 25, 1);
+  line-height: 52px;
+}
+
+.project-1 {
+    /* align-items: center; */
+}
+
+.holder {
+  /* padding-left: 50px; */
+}
